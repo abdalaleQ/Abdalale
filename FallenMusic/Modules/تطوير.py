@@ -39,5 +39,5 @@ async def maker(client: Client, message: Message):
 def greet_user(client, message):
     client.send_message(
         chat_id=message.chat.id,
-        text="مرحبًا! كيف يمكنني مساعدتك اليوم؟"
+        text="<b>مرحبًا! كيف يمكنني مساعدتك اليوم؟</b>"
     )
